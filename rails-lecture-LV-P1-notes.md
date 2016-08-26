@@ -152,17 +152,17 @@ Over this:
 * `render` command that is used in controllers is similar to `erb` in sinatra
 
 
-What was covered:
+### What was covered:
 
-A. The Rails Application Layout
-B. Migration Generator
-C. Model Generator
-D. Controller Generator
-E. Controllers being classes and actions being methods
-F. Routes
-G. Mapping a URL to a Controller Action through routes
-I. Implicit Rendering
-J. Explicit Rendering
+* The Rails Application Layout
+* Migration Generator
+* Model Generator
+* Controller Generator
+* Controllers being classes and actions being methods
+* Routes
+* Mapping a URL to a Controller Action through routes
+* Implicit Rendering
+* Explicit Rendering
 
 
 
