@@ -25,3 +25,9 @@
     bundle update spring && bundle exec spring binstub --remove --all && bundle exec spring binstub --all
   ```
 
+
+
+relevant links:
+
+* http://stackoverflow.com/questions/11451535/gitignore-not-working
+* https://github.com/rubygems/rubygems/issues/1551
