@@ -2,12 +2,16 @@
 
 * add gitignore
   * [rails.gitignore](https://github.com/github/gitignore/blob/master/Rails.gitignore)
-* update gemfile
+* update gemfile with desired gems
   ```ruby
+  # server
   gem 'puma'
+  # error output
   gem 'better_errors'
   gem 'binding_of_caller'
+  # pry gems
   gem 'pry-rails'
+  gem 'pry-byebug'
   ```
   
   ```bash
