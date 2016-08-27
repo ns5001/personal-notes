@@ -7,6 +7,7 @@
   gem 'puma'
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'pry-rails'
   ```
   
   ```bash
@@ -25,6 +26,10 @@
     bundle update spring && bundle exec spring binstub --remove --all && bundle exec spring binstub --all
   ```
 
+* runing puma with better_errors
+ * use `bundle exec puma -w 1`
+ * [reason](https://github.com/charliesome/better_errors#unicorn-puma-and-other-multi-worker-servers)
+ * [puma docs](https://github.com/puma/puma#clustered-mode)
 
 
 relevant links:
