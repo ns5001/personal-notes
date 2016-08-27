@@ -57,9 +57,9 @@ eg: generate a controller
 
 #### Active Record Conventions
 
-Table name: lowercase plural name of model - eg: posts
-Model filename: singular lowercase (underscored) - eg: post.rb
-Class name for model: singular camelcase - eg: Post
+* Table name: lowercase plural name of model - eg: posts
+* Model filename: singular lowercase (underscored) - eg: post.rb
+* Class name for model: singular camelcase - eg: Post
 
 
 #### Routes controllers and actions
