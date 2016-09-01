@@ -22,7 +22,7 @@
    gem 'meta_request'
    
    # Automation
-   # [For more info check](https://gist.github.com/ozPop/17ca00f63728f4656416592c83fef290)
+   [For more info check](https://gist.github.com/ozPop/17ca00f63728f4656416592c83fef290)
    gem 'guard'
    gem 'guard-sass'
    gem 'guard-livereload', '~> 2.5', require: false
