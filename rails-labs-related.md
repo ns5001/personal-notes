@@ -9,23 +9,23 @@
   gem 'puma'
   
   group :development do
-   # Error output
-   gem 'better_errors'
-   gem 'binding_of_caller'
-   
-   # Pry gems
-   gem 'pry-rails'
-   gem 'pry-byebug'
-   
-   # Rails Panel: insight to db/rendering/total times, parameter list, rendered views and more
-   # for more info https://github.com/dejan/rails_panel
-   gem 'meta_request'
-   
-   # Automation
-   # [For more info check](https://gist.github.com/ozPop/17ca00f63728f4656416592c83fef290)
-   gem 'guard'
-   gem 'guard-sass'
-   gem 'guard-livereload', '~> 2.5', require: false
+    # Error output
+    gem 'better_errors'
+    gem 'binding_of_caller'
+    
+    # Pry gems
+    gem 'pry-rails'
+    gem 'pry-byebug'
+    
+    # Rails Panel: insight to db/rendering/total times, parameter list, rendered views and more
+    # for more info https://github.com/dejan/rails_panel
+    gem 'meta_request'
+    
+    # Automation
+    # [For more info check](https://gist.github.com/ozPop/17ca00f63728f4656416592c83fef290)
+    gem 'guard'
+    gem 'guard-sass'
+    gem 'guard-livereload', '~> 2.5', require: false
   end
   
   ```
