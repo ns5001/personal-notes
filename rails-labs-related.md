@@ -40,7 +40,8 @@
   git add .
   git commit -m "update git tracking"
   ```
-  
+
+Some labs spring gem is out of date or has conflicts and produced error output
 * update `spring gem` to rid off error
   ```ruby
     bundle update spring && bundle exec spring binstub --remove --all && bundle exec spring binstub --all
