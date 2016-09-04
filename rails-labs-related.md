@@ -56,6 +56,9 @@ Some labs spring gem is out of date or has conflicts and produced error output
 * some labs dont include .rspec file so rspec produces no colors, use the below command to generate .rspec
  * `echo -e "--color\n--format documentation\n--require spec_helper" > .rspec`
 
+* deleting items using link_to
+ * [Steps on how to setup](http://stackoverflow.com/a/35271656/6664582)
+
 relevant links:
 
 * http://stackoverflow.com/questions/11451535/gitignore-not-working
