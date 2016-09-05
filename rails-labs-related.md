@@ -1,63 +1,83 @@
 ## Useful bits for rails related labs
 
-* add gitignore
-  * [rails.gitignore](https://github.com/github/gitignore/blob/master/Rails.gitignore)
-* update gemfile with desired gems
-  ```ruby
-  
-  # Server
-  gem 'puma'
-  
-  group :development do
-    # Error output
-    gem 'better_errors'
-    gem 'binding_of_caller'
-    
-    # Pry gems
-    gem 'pry-rails'
-    gem 'pry-byebug'
-    
-    # Rails Panel: insight to db/rendering/total times, parameter list, rendered views and more
-    # for more info https://github.com/dejan/rails_panel
-    gem 'meta_request'
-    
-    # Automation
-    # [For more info check](https://gist.github.com/ozPop/17ca00f63728f4656416592c83fef290)
-    gem 'guard'
-    gem 'guard-sass'
-    gem 'guard-livereload', '~> 2.5', require: false
-  end
-  
-  ```
-  
-  ```bash
-  git commit -am "add gitignore, update gemfile"
-  ```
+#### add gitignore
+Some labs do not have a gitignore file
 
-* fixup git tracking
-  ```bash
-  git rm -r --cached .
-  git add .
-  git commit -m "update git tracking"
-  ```
-
-Some labs spring gem is out of date or has conflicts and produced error output
-* update `spring gem` to rid off error
-  ```ruby
-    bundle update spring && bundle exec spring binstub --remove --all && bundle exec spring binstub --all
-  ```
-
-* runing puma with better_errors
- * use `bundle exec puma -w 1`
- * [reason](https://github.com/charliesome/better_errors#unicorn-puma-and-other-multi-worker-servers)
- * [puma docs](https://github.com/puma/puma#clustered-mode)
+* [rails.gitignore](https://github.com/github/gitignore/blob/master/Rails.gitignore)
 
 
-* some labs dont include .rspec file so rspec produces no colors, use the below command to generate .rspec
- * `echo -e "--color\n--format documentation\n--require spec_helper" > .rspec`
+#### Useful gems for rails labs
 
-* deleting items using link_to
- * [Steps on how to setup](http://stackoverflow.com/a/35271656/6664582)
+Update gemfile with desired gems
+
+ ```ruby
+ 
+ # Server
+ gem 'puma'
+ 
+ group :development do
+   # Error output
+   gem 'better_errors'
+   gem 'binding_of_caller'
+   
+   # Pry gems
+   gem 'pry-rails'
+   gem 'pry-byebug'
+   
+   # Rails Panel: insight to db/rendering/total times, parameter list, rendered views and more
+   # for more info https://github.com/dejan/rails_panel
+   gem 'meta_request'
+   
+   # Automation
+   # [For more info check](https://gist.github.com/ozPop/17ca00f63728f4656416592c83fef290)
+   gem 'guard'
+   gem 'guard-sass'
+   gem 'guard-livereload', '~> 2.5', require: false
+ end
+ ```
+ 
+If added gitignore and update gemfile, useful git command:
+
+ ```bash
+ git commit -am "add gitignore, update gemfile"
+ ```
+
+#### Some labs are tracking too many files
+fixup git tracking
+
+ ```bash
+ git rm -r --cached .
+ git add .
+ git commit -m "update git tracking"
+ ```
+
+#### Some labs spring gem is out of date or has conflicts and produces deprecation errors
+
+* update `spring gem` to rid off errors
+ ```ruby
+   bundle update spring && bundle exec spring binstub --remove --all && bundle exec spring binstub --all
+ ```
+
+#### NOTE on runing puma with better_errors
+
+use `bundle exec puma -w 1`
+
+* [reason](https://github.com/charliesome/better_errors#unicorn-puma-and-other-multi-worker-servers)
+* [puma docs](https://github.com/puma/puma#clustered-mode)
+
+
+#### some labs dont include .rspec file
+use the below command to generate .rspec
+
+* `echo -e "--color\n--format documentation\n--require spec_helper" > .rspec`
+
+#### Other useful misc items:
+
+deleting items using link_to
+
+* [Steps on how to setup](http://stackoverflow.com/a/35271656/6664582)
+
+
 
 relevant links:
 
