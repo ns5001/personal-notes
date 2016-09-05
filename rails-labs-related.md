@@ -71,19 +71,21 @@ use the below command to generate .rspec
 
 ### Other useful misc items:
 
-**deleting items using link_to**
+deleting items using link_to
 
 * [Steps on how to setup](http://stackoverflow.com/a/35271656/6664582)
 
 #### Rails Forms
 
-**docs for the collection_check_boxes form helper**
+docs for the collection_check_boxes form helper
 
 * [Example](http://edgeapi.rubyonrails.org/classes/ActionView/Helpers/FormBuilder.html#method-i-collection_check_boxes)
 
-**how to permit an array with strong parameters**
+how to permit an array with strong parameters
 
 * [Useful SO answer](http://stackoverflow.com/a/16555975/6664582)
+
+[Related lab for above links](https://learn.co/tracks/full-stack-web-development/rails/validations-and-forms/rails-blog-associations-and-validations)
 
 relevant links:
 
