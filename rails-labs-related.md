@@ -1,13 +1,12 @@
 ## Useful bits for rails related labs
 
-#### add gitignore
+#### Add gitignore
 Some labs do not have a gitignore file
 
 * [rails.gitignore](https://github.com/github/gitignore/blob/master/Rails.gitignore)
 
 
 #### Useful gems for rails labs
-
 Update gemfile with desired gems
 
  ```ruby
@@ -51,33 +50,40 @@ fixup git tracking
  git commit -m "update git tracking"
  ```
 
-#### Some labs spring gem is out of date or has conflicts and produces deprecation errors
+#### Some labs spring gem is producing deprecation errors
 
 * update `spring gem` to rid off errors
  ```ruby
    bundle update spring && bundle exec spring binstub --remove --all && bundle exec spring binstub --all
  ```
 
-#### NOTE on runing puma with better_errors
-
+#### NOTE on runing puma with better_errors gem
 use `bundle exec puma -w 1`
 
 * [reason](https://github.com/charliesome/better_errors#unicorn-puma-and-other-multi-worker-servers)
 * [puma docs](https://github.com/puma/puma#clustered-mode)
 
 
-#### some labs dont include .rspec file
+#### Some labs dont include .rspec file
 use the below command to generate .rspec
 
 * `echo -e "--color\n--format documentation\n--require spec_helper" > .rspec`
 
-#### Other useful misc items:
+### Other useful misc items:
 
-deleting items using link_to
+**deleting items using link_to**
 
 * [Steps on how to setup](http://stackoverflow.com/a/35271656/6664582)
 
+#### Rails Forms
 
+**docs for the collection_check_boxes form helper**
+
+* [Example](http://edgeapi.rubyonrails.org/classes/ActionView/Helpers/FormBuilder.html#method-i-collection_check_boxes)
+
+**how to permit an array with strong parameters**
+
+* [Useful SO answer](http://stackoverflow.com/a/16555975/6664582)
 
 relevant links:
 
