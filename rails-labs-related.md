@@ -1,4 +1,4 @@
-## Some setup steps for rails related labs
+## Useful bits for rails related labs
 
 * add gitignore
   * [rails.gitignore](https://github.com/github/gitignore/blob/master/Rails.gitignore)
