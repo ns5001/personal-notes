@@ -53,6 +53,7 @@ fixup git tracking
 #### Some labs spring gem is producing deprecation errors
 
 * update `spring gem` to rid off errors
+
  ```ruby
    bundle update spring && bundle exec spring binstub --remove --all && bundle exec spring binstub --all
  ```
