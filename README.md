@@ -13,6 +13,7 @@
 #### Labs Related
 
 * [Misc Rails Labs Related](rails-labs-related.md)
+* [Rails Rules Of Thumb](rails-rules-of-thumb.md)
 * [Rails Lecture - LV - Part 1](rails-lecture-LV-P1-notes.md)
 
 ### Regex
