@@ -42,7 +42,7 @@ If added gitignore and update gemfile, useful git command:
  ```
 
 #### Some labs are tracking too many files
-fixup git tracking
+Fixup git tracking
 
  ```bash
  git rm -r --cached .
@@ -51,44 +51,43 @@ fixup git tracking
  ```
 
 #### Some labs spring gem is producing deprecation errors
-
-* update `spring gem` to rid off errors
+Update `spring gem` to rid off errors
 
  ```ruby
    bundle update spring && bundle exec spring binstub --remove --all && bundle exec spring binstub --all
  ```
 
-#### NOTE on runing puma with better_errors gem
-use `bundle exec puma -w 1`
+#### NOTE on running puma with better_errors gem
+Use `bundle exec puma -w 1` command to change number of 'workers'
 
 * [reason](https://github.com/charliesome/better_errors#unicorn-puma-and-other-multi-worker-servers)
 * [puma docs](https://github.com/puma/puma#clustered-mode)
 
 
 #### Some labs dont include .rspec file
-use the below command to generate .rspec
+Use the below command to generate .rspec
 
 * `echo -e "--color\n--format documentation\n--require spec_helper" > .rspec`
 
 ### Other useful misc items:
 
-deleting items using link_to
+Deleting items using link_to
 
 * [Steps on how to setup](http://stackoverflow.com/a/35271656/6664582)
 
 #### Rails Forms
 
-docs for the collection_check_boxes form helper
+Docs for the collection_check_boxes form helper
 
 * [Example](http://edgeapi.rubyonrails.org/classes/ActionView/Helpers/FormBuilder.html#method-i-collection_check_boxes)
 
-how to permit an array with strong parameters
+How to permit an array with strong parameters
 
 * [Useful SO answer](http://stackoverflow.com/a/16555975/6664582)
 
 [Related lab for above links](https://learn.co/tracks/full-stack-web-development/rails/validations-and-forms/rails-blog-associations-and-validations)
 
-relevant links:
+Relevant links:
 
 * http://stackoverflow.com/questions/11451535/gitignore-not-working
 * https://github.com/rubygems/rubygems/issues/1551
