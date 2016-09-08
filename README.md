@@ -4,7 +4,7 @@
 
 ### Ruby
 
-* [General Info](ruby.md)
+* [General Info](ruby-misc.md)
 
 ### Rails
 
