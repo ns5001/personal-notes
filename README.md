@@ -2,6 +2,10 @@
 
 ## Index
 
+### Ruby
+
+* [General Info](ruby.md)
+
 ### Rails
 
 #### Useful bits
