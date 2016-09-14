@@ -10,3 +10,6 @@ Validate email
     * `valid_email_regex = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i`
 
 
+Phone numbers
+
+* match phone number: \W?\d{3}\W?\d{3}\W?\d{4}
