@@ -8,3 +8,7 @@
 #### Misc
 
 * [Understanding Private Methods](http://stackoverflow.com/questions/4293215/understanding-private-methods-in-ruby/4293330#4293330)
+
+Start a webrick server
+
+* `ruby -r webrick -e "s = WEBrick::HTTPServer.new(:Port => 8000, :DocumentRoot => Dir.pwd); trap('INT') { s.shutdown }; s.start"`
