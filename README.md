@@ -2,6 +2,10 @@
 
 ## Index
 
+### Git
+
+* [Useful Git Commands](git-commands.md)
+
 ### Ruby
 
 * [General Info](ruby-misc.md)
@@ -18,6 +22,10 @@
 
 * [Misc Rails Labs Related](rails-labs-related.md)
 * [Rails Rules Of Thumb](rails-rules-of-thumb.md)
+* [Rails Related Links](rails-related-links.md)
+
+----
+
 * [Rails Lecture - LV - Part 1](rails-lecture-LV-P1-notes.md)
 
 ### Regex
