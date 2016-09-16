@@ -31,3 +31,7 @@
 ### Regex
 
 * [Useful Regex](useful-regex.md)
+
+### Misc
+
+* [Miscellaneous](misc.md)
