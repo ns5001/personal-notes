@@ -26,7 +26,7 @@
 #### Rails Lectures
 
 * [Rails Lecture - LV - Part 1](rails/rails-lecture-LV-P1-notes.md)
-* [Rails Lecture - Nested Forms](rails/rails-lecture-nested-forms.md)
+* [Rails Lectures - Nested Forms](rails/rails-lectures-nested-forms.md)
 
 ### Regex
 ----
