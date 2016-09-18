@@ -1,4 +1,5 @@
 ## These are notes taken while watching Rails Lecture - Nested Forms - Deep Dive
+----
 
 [Related Learn Lesson](https://learn.co/tracks/full-stack-web-development/rails/associations-and-rails/basic-nested-forms)
 
@@ -28,3 +29,20 @@ Note on form builders:
 * The model has custom writer methods which invoke the build method for example
     * Forms shouldnt know about models and models shouldnt know about forms,
      the controllers are the bridge between them.
+
+
+## These are notes taken while watching Rails Lecture - Nested Forms - LV
+----
+
+[Related Learn Lesson](https://learn.co/tracks/full-stack-web-development/rails/associations-and-rails/has-many-through-in-forms-lab)
+
+[Video URL](https://www.youtube.com/watch?v=k7s2LjVF3YY)
+
+In this lecture Avi walks us through how he would approach solving a particular lab.
+
+The majority of the video is focused on how to build nested forms, collect and process form data.
+
+He touches on associations before jumping into how to build and think about implementing nested forms.
+
+
+
