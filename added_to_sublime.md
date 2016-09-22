@@ -2,7 +2,9 @@
 
 https://packagecontrol.io/packages/Gitignore
 
-Press Cmd + Shift + P for Mac and Ctrl + Shift + P for Linux/Windows
+Press Cmd + Shift + P for Mac
+Ctrl + Shift + P for Linux/Windows
+
 Write Gitignore and select Gitignore: new gitignore
 
 Then select the desired gitignore boilerplate.
@@ -180,7 +182,8 @@ SublimeLinter-contrib-htmllint
   https://github.com/necramirez/SublimeLinter-contrib-htmllint
 
 
+----
 
-More Plugins:
+## More Plugins:
 
 http://www.hongkiat.com/blog/sublime-text-plugins/
