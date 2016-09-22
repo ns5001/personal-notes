@@ -151,8 +151,6 @@ SublimeLinter-contrib-ruby-lint
   
   https://github.com/jawshooah/SublimeLinter-contrib-ruby-lint
   
-  Package Control Messages
-========================
 
 SublimeLinter-rubocop
 ---------------------
