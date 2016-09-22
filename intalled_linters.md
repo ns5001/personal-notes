@@ -59,3 +59,6 @@ SublimeLinter-contrib-htmllint
   follow the installation instructions here:
   
   https://github.com/necramirez/SublimeLinter-contrib-htmllint
+
+
+http://www.sublimelinter.com/en/latest/usage.html
