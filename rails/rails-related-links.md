@@ -7,6 +7,8 @@
 ### View
 ----
 
+* [Refactoring Views into Partials and Helpers](https://www.youtube.com/watch?v=UYhkBd2Mnl0)
+
 #### Forms
 
 Videos:
@@ -18,6 +20,10 @@ Links:
 * [Collection Select Helper](http://apidock.com/rails/ActionView/Helpers/FormOptionsHelper/collection_select)
 * [Datalist HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist) NOTE: This had some problems being redered properly
 
+#### Active Record
+
+* [Using Arel to Compose SQL Queries](https://robots.thoughtbot.com/using-arel-to-compose-sql-queries)
+* [Arel: a SQL AST manager for Ruby](https://github.com/rails/arel)
 
 ### Misc
 ----
