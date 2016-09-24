@@ -1,4 +1,8 @@
-# gitignore for sublime
+## jQuery Helper
+
+[Plugin that helps with jQuery functions](https://packagecontrol.io/packages/jQuery)
+
+## gitignore for sublime
 
 https://packagecontrol.io/packages/Gitignore
 
@@ -13,11 +17,11 @@ Now select another boilerplate. When you are done, select Done.
 
 Save the newly open file as something.gitignore and your done!
 
-# ERB Sublime Snippets
+## ERB Sublime Snippets
 
 https://github.com/matthewrobertson/ERB-Sublime-Snippets
 
-##Snippets and Bindings
+### Snippets and Bindings
 
 <table>
   <tr>
@@ -112,13 +116,13 @@ https://github.com/matthewrobertson/ERB-Sublime-Snippets
   </tr>
 <table>
 
-# Color Picker
+## Color Picker
 
 https://weslly.github.io/ColorPicker/
 
 
 
-# Installed Sublime Linter
+## Installed Sublime Linter
 
 http://www.sublimelinter.com/en/latest/usage.html
 
