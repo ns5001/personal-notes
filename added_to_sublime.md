@@ -1,3 +1,7 @@
+## SidebarEnhancements
+
+[Enhancements to Sublime Text sidebar. Files and folders.](https://packagecontrol.io/packages/SideBarEnhancements)
+
 ## Themes
 
 [Sodarized Theme](https://packagecontrol.io/packages/Theme%20-%20Sodarized)
