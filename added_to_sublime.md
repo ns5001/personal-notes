@@ -1,3 +1,7 @@
+## Themes
+
+[Sodarized Theme](https://packagecontrol.io/packages/Theme%20-%20Sodarized)
+
 ## Color Highlighter
 
 [ColorHighlighter plugin](https://packagecontrol.io/packages/Color%20Highlighter)
