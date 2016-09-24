@@ -1,3 +1,7 @@
+## Color Highlighter
+
+[ColorHighlighter plugin](https://packagecontrol.io/packages/Color%20Highlighter)
+
 ## jQuery Helper
 
 [Plugin that helps with jQuery functions](https://packagecontrol.io/packages/jQuery)
