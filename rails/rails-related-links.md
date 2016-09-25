@@ -31,3 +31,4 @@ Links:
 * [Render and Redirect in Rails 3](https://gist.github.com/jcasimir/1210155)
 * [Rail Generators](https://en.wikibooks.org/wiki/Ruby_on_Rails/Built-In_Rails_Tools/Generators)
   * [Rails Generators Examples](http://www.korenlc.com/rails-generate-model-vs-resourse-vs-scaffold/)
+* [Rails Directory Structure Overview](https://www.tutorialspoint.com/ruby-on-rails/rails-directory-structure.htm)
