@@ -3,6 +3,10 @@
 ----
 
 * [Permit Array in Strong Params](http://stackoverflow.com/questions/16549382/how-to-permit-an-array-with-strong-parameters)
+* respond_to: responsible for exposing a resource to different mime requests
+ * [SO answer](http://stackoverflow.com/a/13388248/6664582)
+ * [edgeapi respond_to](http://edgeapi.rubyonrails.org/classes/ActionController/Responder.html)
+ * [apidoc respond_to](http://apidock.com/rails/ActionController/MimeResponds/InstanceMethods/respond_to)
 
 ### View
 ----
