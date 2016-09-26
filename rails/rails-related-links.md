@@ -24,6 +24,9 @@ Links:
 
 * [Using Arel to Compose SQL Queries](https://robots.thoughtbot.com/using-arel-to-compose-sql-queries)
 * [Arel: a SQL AST manager for Ruby](https://github.com/rails/arel)
+* Law of Demeter in Rails using Delegate
+ * [Law of Demeter with Rails](https://blog.spacelab.team/design-patterns-law-of-demeter-with-rails-49a44a9689fe#.ie5h1uio9)
+ * [Understanding Rails Delegate](https://simonecarletti.com/blog/2009/12/inside-ruby-on-rails-delegate/)
 
 ### Misc
 ----
