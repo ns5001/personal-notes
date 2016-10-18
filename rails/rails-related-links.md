@@ -39,12 +39,14 @@ Links:
 
 * [Authentication System - Login Setup](https://www.railstutorial.org/book/basic_login)
 * [Devise](http://devise.plataformatec.com.br/)
+    * [How to Use Devise for Auth](https://launchschool.com/blog/how-to-use-devise-in-rails-for-authentication)
     * [Facebook Omniauth example](https://github.com/plataformatec/devise/wiki/OmniAuth%3A-Overview)
     * [Link_to exmaple that worked](http://stackoverflow.com/a/38837010/6664582)
 
 Video:
 
 * [Omniauth Github](https://www.youtube.com/watch?v=UAvuo-EbTFY)
+* [Auth & MetaProgramming](https://www.youtube.com/watch?v=wsbfUc-CPbg)
 
 
 ### Misc
