@@ -22,3 +22,8 @@ end
 
 Capybara.javascript_driver = :chrome
 ```
+
+Sources
+
+* [Link1 ](http://stackoverflow.com/a/21453068/6664582)
+* [Link 2](http://stackoverflow.com/a/39439663/6664582)
