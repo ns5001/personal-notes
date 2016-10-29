@@ -13,7 +13,7 @@ Do
 
 `gem uninstall chromedriver-helper and brew install chromedriver`
 
-Also add the below to spec_helper.rb
+Also add the below to spec_helper.rb, or if using rails rails_helper.rb (at the bottom of the file)
 
 ```ruby
 Capybara.register_driver :chrome do |app|
