@@ -4,4 +4,4 @@
 
 AMS is only concerned with the number of the relationship, not the direction. 
 So it only knows has_one and has_many. This is because it's not describing a data/model relationship, 
-but the relationship as defined by the JSON.
+but the relationship as defined by the JSON. [Source](https://learn.co/tracks/full-stack-web-development/rails-and-javascript/building-apis/using-active-model-serializer)
