@@ -7,7 +7,7 @@ So it only knows has_one and has_many. This is because it's not describing a dat
 but the relationship as defined by the JSON. [Source](https://learn.co/tracks/full-stack-web-development/rails-and-javascript/building-apis/using-active-model-serializer)
 
 
-### Enable root key in when using AMS
+### Enable root key when using ActiveModelSerializer (v.10.x)
 
 [How to add root key](https://github.com/rails-api/active_model_serializers/blob/master/docs/howto/add_root_key.md)
 
