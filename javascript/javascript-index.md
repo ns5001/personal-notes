@@ -1,6 +1,11 @@
 ## Javascript Index
 ----
 
+### Javascript with Rails
+----
+
+* [Javascript & Rails](javascript-rails.md)
+
 ### Jquery
 ----
 
