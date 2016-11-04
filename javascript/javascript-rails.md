@@ -1,6 +1,7 @@
 ## Javascript and rails stuff
 
 ### Serializers
+----
 
 AMS is only concerned with the number of the relationship, not the direction. 
 So it only knows has_one and has_many. This is because it's not describing a data/model relationship, 
@@ -18,3 +19,21 @@ require 'active_model_serializers/register_jsonapi_renderer'
 
 ActiveModelSerializers.config.adapter = :json
 ```
+
+----
+
+Some labs use older version of Active Model Serializer and the lessons are not up to date.
+
+1. In order to display root key specify adapter
+
+```ruby
+render json: @product, adapter: :json
+```
+
+2. I order to display nested attributes use include option
+
+```ruby
+render json: @product, adapter: :json, include: { orders: [:products] }
+```
+
+The solution is using 0.9+ and current AMS master is 0.10+. Most likely version related.
